@@ -1,0 +1,352 @@
+body{      margin: 0;
+            height: 180vh;
+            background-image: url("https://media.gettyimages.com/id/1348235111/photo/innovation-and-new-ideas-lightbulb-concept-with-question-mark.jpg?s=612x612&w=gi&k=20&c=JH1uYkBjgUKVNZuoeXwXbsyHtD0LFOcvzc7uv4ovYlA=");
+            background-size:cover ;
+            background-position:center ;
+            background-repeat:no-repeat;
+        }
+
+    
+
+
+        h1{
+            margin-top: 100px;
+          color: darkblue;
+          font-size: 80px;
+          text-align: center;
+          background-color: white;
+
+
+          }
+           #Home{
+            margin-left: 0;
+            margin-right:20px;
+            text-decoration:none;
+             }
+            #Home:hover{
+            background-color: blue;
+           color: red;
+            }
+
+        #Aboutus{
+           margin-right: 20px;
+           margin-bottom: 30px;
+           text-decoration: none;
+           
+
+                } 
+
+         #Aboutus:hover{
+            background-color: blue;
+           color: red;
+           line-height: 10px;
+            }
+           #UpcomingGames{
+           margin-right: 20px;
+           text-decoration: none;
+            } 
+            #UpcomingGames:hover{
+            background-color: blue;
+            color: red;
+           }
+    
+          #Consoles{
+            margin-right:20px;
+            text-decoration: none;
+               }
+         #Consoles:hover{
+            background-color: blue;
+            color: red;
+            }
+
+
+           #Games{
+            margin-right:20px;
+            text-decoration: none;
+            }
+
+
+            #Games:hover{
+            background-color: blue;
+           color: red;
+            }
+
+
+
+            #Queries{
+           margin-right:20px;
+           text-decoration: none;
+               }
+
+               #Queries:hover{
+            background-color: blue;
+           color: red;
+            }
+      #main {
+       display:flex ;
+       justify-content:center;
+       flex-wrap: wrap;
+       margin: 500px;
+       background-color: yellow;
+       margin-top: 35px;
+      padding: 50px;
+       font-size: 30px;
+      }
+
+         p{  text-align: center;
+            font-size: 30px;
+            color: black;
+        }
+
+
+
+@media screen and (max-width:1000px)
+     {
+          h1{
+              font-size: 50px;
+             }
+
+           #main{
+              margin: 100px;
+             
+              font-size: 12px;
+
+
+           }
+         .topnav{
+               font-size: 10px;
+               padding-bottom: 25px;
+
+
+           }
+
+        }
+        
+       
+        h2{
+             font-family:bold;
+             font-size:60px;
+             text-align: center;
+             color:red;
+             width: 95%;
+              }
+        h3{
+            font-size: 45px;
+
+        }
+        h4{
+            font-size: 50px;
+            text-align: center;
+            color: orange;
+
+
+        }
+
+             
+
+* {
+  box-sizing: border-box;
+
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color:#6d31de;
+  padding: 0px;
+  margin-top: 100px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+footer {
+                    
+                    padding: 20px;
+                     background:linear-gradient(to right, #00093c, #2d0b00);
+                     margin-top: 800px;
+                     position: absolute;
+                     max-width: 100%;
+                     left:0;
+                     right: 0;
+                     align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.contact-info {
+    text-align: left; /* Align paragraph content to the left */
+    width: 40%; /* Adjust width */
+    color: white;
+}
+.contact-info p{
+                  color:white ;
+                  font-size: 12px;
+                  font-family: Roboto;
+
+
+
+
+
+}
+
+.nav-links {
+    text-align: center;
+    width: 30%; /* Adjust width */
+    position: relative;
+    top: -20px; /* Move links slightly up */
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons img{
+             width: 50px;
+             height:50px;
+
+
+
+
+}
+       
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text 1] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.FAQ{
+        font-size: 30px;
+
+
+  }
+summary{
+          font-family: verdans;
+          font-size: 35px;
+
+
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text-1], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  
+
+  

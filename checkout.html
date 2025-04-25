@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - TechStore</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+
+    <main>
+        <section id="order-summary">
+            <h2>Your Order</h2>
+            <div id="order-items">
+                <!-- Will be populated by JavaScript -->
+            </div>
+            <p id="order-total">Total: $0.00</p>
+        </section>
+
+        <form id="checkout-form">
+            <h2>Personal Details</h2>
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" required>
+            </div>
+
+            <h2>Delivery Details</h2>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" required>
+            </div>
+            <div class="form-group">
+                <label for="postal">Postal Code:</label>
+                <input type="text" id="postal" required>
+            </div>
+
+            <h2>Payment Information</h2>
+            <div class="form-group">
+                <label for="card-name">Name on Card:</label>
+                <input type="text" id="card-name" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="card-expiry">Expiry Date:</label>
+                <input type="text" id="card-expiry" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="card-cvv">CVV:</label>
+                <input type="text" id="card-cvv" required>
+            </div>
+
+            <button type="submit" id="pay-button">Pay Now</button>
+        </form>
+
+        <div id="confirmation" style="display: none;">
+            <h2>Thank You for Your Purchase!</h2>
+            <p>Your order will be delivered by <span id="delivery-date"></span>.</p>
+            <p>A confirmation email has been sent to <span id="confirm-email"></span>.</p>
+        </div>
+    </main>
+
+    <script src="checkout.js"></script>
+</body>
+</html>
