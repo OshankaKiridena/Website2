@@ -6,7 +6,7 @@ const buyNowBtn = document.getElementById('buy-now');
 const saveFavBtn = document.getElementById('save-fav');
 const loadFavBtn = document.getElementById('load-fav');
 
-// Product data (could also be fetched from an API)
+// Product data 
 const products = {
     processors: [
         { id: 'cpu1', name: 'Intel Core i9-13900K', price: 550 },
